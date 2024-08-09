@@ -10,6 +10,7 @@ class Person {
 	}
 	
 	public String getFirstName(){
+		System.out.println("First Name: " + firstName);
 		return firstName;
 	}
 	
